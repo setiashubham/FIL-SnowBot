@@ -7,9 +7,10 @@ import openai
 import tempfile
 import openpyxl
 import PyPDF2
+import lightning
 
 
-openai_api_key = 'Provide your key'
+openai_api_key = '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'
 
 def construct_index(directory_path):
     max_input_size = 4096
